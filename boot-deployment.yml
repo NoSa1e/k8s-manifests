@@ -17,7 +17,7 @@ spec:
           image: nosa1e/argocd-pipe:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
